@@ -6,7 +6,7 @@
 %define haproxy_confdir %{_sysconfdir}/haproxy
 %define haproxy_datadir %{_datadir}/haproxy
 
-%define version 1.5.1
+%define version 1.5.2
 #%define dev_rel dev25
 #%define release 1
 
@@ -121,6 +121,9 @@ fi
 %exclude %{_sbindir}/haproxy-systemd-wrapper
 
 %changelog
+* Tue Jul 22 2014 Robert Hawdon <robert.hawdon@bedegaming.com> - 1.5.2
+- Update to haproxy 1.5.2
+
 * Fri Jun 20 2014 Joseph Daigle <joseph@cridion.com> - 1.5.0
 - Update to haproxy 1.5.0
 
